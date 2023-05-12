@@ -1,8 +1,8 @@
 #Define your base image 
-FROM eclipse-temurin:17-jdk-focal 
+FROM eclipse-temurin:11-jdk-focal 
 
 #Maintainer of this image
-LABEL maintainer="Palak Bhawsar" 
+LABEL maintainer="Nithin Gowda" 
                                                                                                                             
 #Copying Jar file from target folder                                                                                       
 COPY target/web-services.jar web-services.jar  
